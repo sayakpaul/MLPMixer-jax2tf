@@ -1,24 +1,24 @@
 # MLPMixer-jax2tf
 
 This repository hosts code for converting the original MLP-Mixer models [1] (JAX) to TensorFlow. The converted models are hosted
-on TensorFlow Hub and can be found here: [TODO].
+on TensorFlow Hub and can be found here: [TODO] ([PR in progress](https://github.com/tensorflow/tfhub.dev/pull)).
 
 Several model variants are available:
 
 ### **SAM [2] pre-trained** (these models were pre-trained on ImageNet-1k):
 
-* B/16 (classification, feature-extractor)
-* B/32 (classification, feature-extractor)
+* B/16 ([classification](https://tfhub.dev/sayakpaul/mixer_b16_sam_classification/1), [feature-extractor](https://tfhub.dev/sayakpaul/mixer_b16_sam_fe/1))
+* B/32 ([classification](https://tfhub.dev/sayakpaul/mixer_b32_sam_classification/1), [feature-extractor](https://tfhub.dev/sayakpaul/mixer_b32_sam_fe/1))
 
 ### **ImageNet-1k fine-tuned**:
 
-* B/16 (classification, feature-extractor)
-* L/16 (classification, feature-extractor)
+* B/16 ([classification](https://tfhub.dev/sayakpaul/mixer_b16_i1k_classification/1), [feature-extractor](https://tfhub.dev/sayakpaul/mixer_b16_i1k_fe/1))
+* L/16 ([classification](https://tfhub.dev/sayakpaul/mixer_l16_i1k_classification/1), [feature-extractor](https://tfhub.dev/sayakpaul/mixer_l16_i1k_fe/1))
 
 ### **ImageNet-21k pre-trained**:
 
-* B/16 (classification, feature-extractor)
-* L/16 (classification, feature-extractor)
+* B/16 ([classification](https://tfhub.dev/sayakpaul/mixer_b16_i21k_classification/1), [feature-extractor](https://tfhub.dev/sayakpaul/mixer_b16_i21k_fe/1))
+* L/16 ([classification](https://tfhub.dev/sayakpaul/mixer_l16_i21k_classification/1), [feature-extractor](https://tfhub.dev/sayakpaul/mixer_l16_i21k_fe/1))
 
 For more details on the training protocols, please follow [1, 3].
 
