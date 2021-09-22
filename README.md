@@ -3,6 +3,8 @@
 This repository hosts code for converting the original MLP-Mixer models [1] (JAX) to TensorFlow. The converted models are hosted
 on TensorFlow Hub and can be found here: https://tfhub.dev/sayakpaul/collections/mlp-mixer/1.
 
+**Note that it's a requirement to use TensorFlow 2.6 or greater to use the converted models.**
+
 Several model variants are available:
 
 ### **SAM [2] pre-trained** (these models were pre-trained on ImageNet-1k):
