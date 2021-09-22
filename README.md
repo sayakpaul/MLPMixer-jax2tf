@@ -10,7 +10,7 @@ Several model variants are available:
 * B/16 (classification, feature-extractor)
 * B/32 (classification, feature-extractor)
 
-### **ImageNet-1k pre-trained**:
+### **ImageNet-1k fine-tuned**:
 
 * B/16 (classification, feature-extractor)
 * L/16 (classification, feature-extractor)
