@@ -24,7 +24,7 @@ Several model variants are available:
 
 For more details on the training protocols, please follow [1, 3].
 
-The original model classes and weights [4] using the `jax2tf` tool [5]. For details on the conversion process,
+The original model classes and weights [4] were converted using the `jax2tf` tool [5]. For details on the conversion process,
 please refer to the [`conversion.ipynb`](https://colab.research.google.com/github/sayakpaul/MLPMixer-jax2tf/blob/main/conversion.ipynb) notebook.
 
 ## Other notebooks
