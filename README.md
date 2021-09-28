@@ -55,3 +55,7 @@ for the [Flowers dataset](https://www.tensorflow.org/datasets/catalog/tf_flowers
 [4] [Vision Transformer GitHub](https://github.com/google-research/vision_transformer)
 
 [5] [jax2tf tool](https://github.com/google/jax/tree/main/jax/experimental/jax2tf/)
+
+## Acknowledgements
+
+Thanks to the [ML-GDE program](https://developers.google.com/community/experts) for providing GCP Credit support that helped me execute the experiments for this project.
