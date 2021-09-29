@@ -1,5 +1,10 @@
 # MLPMixer-jax2tf
 
+<p align="center">
+  <img src="https://i.ibb.co/tmGYFTv/mixer.png" width=650/><br>
+  <sup>Example usage.</sup>
+</p>
+
 This repository hosts code for converting the original MLP-Mixer models [1] (JAX) to TensorFlow. The converted models are hosted
 on TensorFlow Hub and can be found here: https://tfhub.dev/sayakpaul/collections/mlp-mixer/1.
 
